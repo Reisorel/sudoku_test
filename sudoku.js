@@ -1,4 +1,3 @@
-70 % de l'espace de stockage utilisés … Une fois la limite atteinte, vous ne pouvez plus créer, modifier ni importer de fichiers.
 // Initialisation fonction check validité d’un plateau de Sudoku 9×9
 const isValidSudoku = (board) => {
   // 1. Décomposer chaque dimension du tableau global en trois tableaux 9×9.
@@ -38,11 +37,11 @@ const isValidSudoku = (board) => {
     }
   }
 
-  // 7. Aucun doublon détecté → plateau valide
+  // 7. Si aucun doublon détecté nplateau valide
   return true;
 };
 
-// Exemple d’utilisation :
+// Exemple d’utilisation (grille de l'exercie) :
 const board = [
   ["5","3",".",".","7",".",".",".","."],
   ["6",".",".","1","9","5",".",".","."],
